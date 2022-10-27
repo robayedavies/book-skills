@@ -3,3 +3,17 @@
 Some notes on writing
 
 Some more notes
+
+## a new heading
+
+some text
+
+```{r}
+library(tidyverse)
+```
+
+```{r plot}
+mtcars %>%
+  ggplot(aes(x = mpg)) +
+  geom_histogram()
+```
