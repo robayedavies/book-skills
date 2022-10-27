@@ -18,7 +18,7 @@
     "href": "writing.html",
     "title": "2  Writing",
     "section": "",
-    "text": "Some more notes"
+    "text": "Some notes on writing\nSome more notes"
   },
   {
     "objectID": "summary.html",
@@ -33,5 +33,12 @@
     "title": "References",
     "section": "",
     "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97."
+  },
+  {
+    "objectID": "writing.html#a-new-heading",
+    "href": "writing.html#a-new-heading",
+    "title": "2  Writing",
+    "section": "2.1 a new heading",
+    "text": "2.1 a new heading\nsome text\n\nlibrary(tidyverse)\n\nWarning: package 'tidyverse' was built under R version 4.1.1\n\n\n── Attaching packages ─────────────────────────────────────── tidyverse 1.3.2 ──\n✔ ggplot2 3.3.6      ✔ purrr   0.3.5 \n✔ tibble  3.1.8      ✔ dplyr   1.0.10\n✔ tidyr   1.2.1      ✔ stringr 1.4.1 \n✔ readr   2.1.3      ✔ forcats 0.5.2 \n\n\nWarning: package 'ggplot2' was built under R version 4.1.1\n\n\nWarning: package 'tibble' was built under R version 4.1.1\n\n\nWarning: package 'tidyr' was built under R version 4.1.1\n\n\nWarning: package 'readr' was built under R version 4.1.1\n\n\nWarning: package 'purrr' was built under R version 4.1.1\n\n\nWarning: package 'dplyr' was built under R version 4.1.1\n\n\nWarning: package 'stringr' was built under R version 4.1.1\n\n\nWarning: package 'forcats' was built under R version 4.1.1\n\n\n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter() masks stats::filter()\n✖ dplyr::lag()    masks stats::lag()\n\n\n\nmtcars %>%\n  ggplot(aes(x = mpg)) +\n  geom_histogram()\n\n`stat_bin()` using `bins = 30`. Pick better value with `binwidth`."
   }
 ]
